@@ -76,6 +76,7 @@ AM_CPPFLAGS = \
 	$(GIO_CFLAGS) \
 	$(GLIB_CFLAGS) \
 	$(GTK_CFLAGS) \
+	$(WEBKIT_CFLAGS) \
 	$(TP_GLIB_CFLAGS) \
 	$(TP_LOGGER_CFLAGS) \
 	$(TPAW_CFLAGS) \
@@ -88,6 +89,7 @@ gnome_chat_LDADD = \
 	$(GIO_LIBS) \
 	$(GLIB_LIBS) \
 	$(GTK_LIBS) \
+	$(WEBKIT_LIBS) \
 	$(TP_GLIB_LIBS) \
 	$(TP_LOGGER_LIBS) \
 	$(TPAW_LIBS) \
